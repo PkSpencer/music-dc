@@ -2,7 +2,7 @@ name: Deploy music-dc to Docker Hub
 
 on:
   push:
-    branches: [ "main" ] # Triggers the push whenever you push to main branch
+    branches: [ "master" ] # Triggers the push whenever you push to main branch
 
 jobs:
   build-and-push:
